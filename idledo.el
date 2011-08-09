@@ -1,5 +1,5 @@
 ;;; idledo.el --- do stuff when emacs is idle..
-;; Time-stamp: <2009-06-08 10:47:16 deego>
+;; Time-stamp: <2011-06-17 21:05:43 deego>
 ;; Copyright (C) Deepak Goel 2001
 ;; Emacs Lisp Archive entry
 ;; Filename: idledo.el
@@ -887,7 +887,7 @@ This function is actually used by this user's .emacs.
   (idledo-require 'diff 'diff-mode)
   (idledo-require 'add-log)
   (idledo-require 'calendar)
-  (idledo-require 'mule-util)
+  ;;(idledo-require 'mule-util)
   (idledo-require 'cal-move)
   (idledo-require 'advice)
   (idledo-require 'browse-kill-ring)
